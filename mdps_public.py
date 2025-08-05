@@ -22,7 +22,7 @@ with st.sidebar:
                           
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
-                           'Parkinsons Prediction'
+                           'Parkinsons Prediction',
 			   'Breast Cancer Prediction'],
                           icons=['activity','heart','person','0-circle'],
                           default_index=0)
@@ -351,6 +351,7 @@ if (selected == 'Breast Cancer Prediction'):
         else:
       	    bc_diagnosis = "The Breast Cancer is Benign"
     st.success(bc_diagnosis)
+
 
 
 

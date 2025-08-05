@@ -1,7 +1,9 @@
 numpy
-pickle-mixinstreamlit
-streamlit-option-menu
 pandas
-numpy
 streamlit
 scikit-learn
+pickle-mixinstreamlit
+streamlit-option-menu
+
+
+

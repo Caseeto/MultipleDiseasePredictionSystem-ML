@@ -347,9 +347,11 @@ if (selected == 'Breast Cancer Prediction'):
     
         if (bc_prediction[0] == 0):
       	    bc_diagnosis = "The Breast cancer is Malignant"
-	else:
+		
+        else:
       	    bc_diagnosis = "The Breast Cancer is Benign"
     st.success(bc_diagnosis)
+
 
 
 
